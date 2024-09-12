@@ -47,11 +47,12 @@ package = "smithay-client-toolkit"
 opt-level = 3
 lto = "thin"
 
+# https://github.com/rust-lang/cargo/issues/5478
 # [patch.'https://github.com/smithay/client-toolkit/']
 # smithay-client-toolkit = { git = "https://github.com/smithay/client-toolkit//", rev = "c583de8" }
 
 [patch.'https://github.com/pop-os/cosmic-protocols']
-cosmic-protocols = { git = "https://github.com/pop-os/cosmic-protocols//", rev = "bd65e0f2d55429954839c9e6c7bc5b0d198b85f0" }
+cosmic-protocols = { git = "https://www.github.com/pop-os/cosmic-protocols", rev = "bd65e0f2d55429954839c9e6c7bc5b0d198b85f0" }
 
 # For development and testing purposes
 # [patch.'https://github.com/pop-os/libcosmic']
